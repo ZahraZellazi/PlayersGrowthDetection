@@ -1,0 +1,13 @@
+prefix=/Users/zahra/Desktop/similarityMatching/.conda
+exec_prefix=/Users/zahra/Desktop/similarityMatching/.conda
+libdir=/Users/zahra/Desktop/similarityMatching/.conda/lib
+sharedlibdir=/Users/zahra/Desktop/similarityMatching/.conda/lib
+includedir=/Users/zahra/Desktop/similarityMatching/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
